@@ -17,7 +17,7 @@ Contents
 
 .. toctree::
 
-   System Requirements
+   System_Requirements
    Usage
    api
    
