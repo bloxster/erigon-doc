@@ -22,6 +22,7 @@ Contents
    tools
    faq
    resources
+   test
 
 
 
