@@ -30,7 +30,7 @@ For building the latest stable release (this will be suitable for most users jus
 
 
 .. code:: console
-git clone --branch stable --single-branch https://github.com/ledgerwatch/erigon.git
+$ git clone --branch stable --single-branch https://github.com/ledgerwatch/erigon.git
 cd erigon
 make erigon
 
