@@ -29,10 +29,11 @@ Installing Erigon
 For building the latest stable release (this will be suitable for most users just wanting to run a node):
 
 
-.. code:: console
+```bash
 $ git clone --branch stable --single-branch https://github.com/ledgerwatch/erigon.git
 cd erigon
 make erigon
+```
 
 You can check the list of releases for release notes.
 
