@@ -14,6 +14,7 @@ Contents
 .. toctree::
 
    getting_started
+   usage
    fundamentals
    interacting_with_erigon
    developers
