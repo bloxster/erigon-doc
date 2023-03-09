@@ -30,22 +30,23 @@ Installing Erigon
 
 For building the latest stable release (this will be suitable for most users just wanting to run a node):
 
-\```
+.. code-block:: console
 git clone --branch stable --single-branch https://github.com/ledgerwatch/erigon.git
 cd erigon
 make erigon
 ./build/bin/erigon
-\```
 
 You can check the list of releases for release notes.
 
 For building the bleeding edge development branch:
 
+.. code-block:: console
 git clone --recurse-submodules https://github.com/ledgerwatch/erigon.git
 cd erigon
 git checkout devel
 make erigon
 ./build/bin/erigon
+
 Default --snapshots for mainnet, goerli, gnosis, bsc. Other networks now have default --snapshots=false. Increase download speed by flag --torrent.download.rate=20mb. 🔬 See Downloader docs
 
 Use --datadir to choose where to store data.
