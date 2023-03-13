@@ -2,7 +2,7 @@
 Getting started
 ===============
 
-This page explains how to set up Erigon and execute some basic tasks using the command line tools. In order to use Erigon, the software must first be installed. There are several ways Erigon can be installed depending on the operating system and the user's choice of installation method, for example using a package manager, container or building from source. Instructions for installing Geth can be found on the "Installing Erigon" section.
+In order to use Erigon, the software must first be installed. There are several ways Erigon can be installed depending on the operating system and the user's choice of installation method, for example using a package manager, container or building from source.
 
 System Requirements
 --------------------
@@ -19,7 +19,7 @@ As a storage mean, it is reccomended to have SSD or NVMe disk. HDD is not reccom
 
 CPU: 64-bit architecture
 RAM: >=16GB
-Golang version >= 1.18; GCC 10+ or Clang; On Linux: kernel > v4
+`Golang version <https://go.dev/doc/install>` >= 1.18; GCC 10+ or Clang; On Linux: kernel > v4
 
 🔬 more details on disk storage `here <https://erigon.substack.com/p/disk-footprint-changes-in-new-erigon?s=r>`_ and `here <https://ledgerwatch.github.io/turbo_geth_release.html#Disk-space>`_.
 
