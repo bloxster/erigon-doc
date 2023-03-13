@@ -17,8 +17,8 @@ For an Archive node of Ethereum Mainnet it is recommended >=3TB storage space: 1
 
 As a storage mean, it is reccomended to have SSD or NVMe disk. HDD is not reccomended because it will cause Erigon to always stay *N* blocks behind chain tip, but not fall behind. Furthermore, SSD performance deteriorates when close to capacity.
 
-RAM: >=16GB, 64-bit architecture.
-
+CPU: 64-bit architecture
+RAM: >=16GB
 Golang version >= 1.18; GCC 10+ or Clang; On Linux: kernel > v4
 
 🔬 more details on disk storage `here <https://erigon.substack.com/p/disk-footprint-changes-in-new-erigon?s=r>`_ and `here <https://ledgerwatch.github.io/turbo_geth_release.html#Disk-space>`_.
