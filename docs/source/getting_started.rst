@@ -23,7 +23,7 @@ RAM: ≥16GB
 
 On Linux: kernel > v4
 
-`Golang version <https://go.dev/doc/install>`_ ≥ 1.18; GCC 10+ or Clang
+`Golang version <https://go.dev/doc/install>`_ ≥ 1.18; `GCC <https://go.dev/doc/install/gccgo>`_ 10+ or `Clang <https://clang.llvm.org>`_
 
 🔬 more details on disk storage `here <https://erigon.substack.com/p/disk-footprint-changes-in-new-erigon?s=r>`_ and `here <https://ledgerwatch.github.io/turbo_geth_release.html#Disk-space>`_.
 
