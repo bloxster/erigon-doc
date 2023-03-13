@@ -37,7 +37,7 @@ For building the latest stable release (this will be suitable for most users jus
 cd erigon
 make erigon``
 
-You can check the list of releases for release notes.
+You can check the `list of releases <https://github.com/ledgerwatch/erigon/releases>`_ for release notes.
 
 For building the bleeding edge development branch:
 
