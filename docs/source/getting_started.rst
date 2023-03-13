@@ -19,6 +19,7 @@ As a storage mean, it is reccomended to have SSD or NVMe disk. HDD is not reccom
 
 CPU: 64-bit architecture
 RAM: >=16GB
+
 `Golang version <https://go.dev/doc/install>`_ >= 1.18; GCC 10+ or Clang; On Linux: kernel > v4
 
 🔬 more details on disk storage `here <https://erigon.substack.com/p/disk-footprint-changes-in-new-erigon?s=r>`_ and `here <https://ledgerwatch.github.io/turbo_geth_release.html#Disk-space>`_.
