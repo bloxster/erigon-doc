@@ -15,7 +15,7 @@ For an Archive node of Ethereum Mainnet it is recommended >=3TB storage space: 1
 - BSC Archive: 7TB. BSC Full: 1TB.
 - Polygon Mainnet Archive: 5TB. Polygon Mumbai Archive: 1TB.
 
-As a storage mean, it is reccomended to have SSD or NVMe disk. HDD is not reccomended because it will cause Erigon to always stay *N* blocks behind chain tip, but not fall behind. Furthermore, SSD performance deteriorates when close to capacity.
+As a storage mean, it is reccomended to have SSD or NVMe disk. HDD is not reccomended because it will cause Erigon to always stay *N* blocks behind chain tip, but not fall behind. Furthermore, SSD performance deteriorates when close to capacity. 🔬 more details on disk storage `here <https://erigon.substack.com/p/disk-footprint-changes-in-new-erigon?s=r>`_ and `here <https://ledgerwatch.github.io/turbo_geth_release.html#Disk-space>`_.
 
 CPU: 64-bit architecture
 
@@ -25,7 +25,7 @@ On Linux: kernel > v4
 
 `Golang version <https://go.dev/doc/install>`_ ≥ 1.18; `GCC <https://go.dev/doc/install/gccgo>`_ 10+ or `Clang <https://clang.llvm.org>`_
 
-🔬 more details on disk storage `here <https://erigon.substack.com/p/disk-footprint-changes-in-new-erigon?s=r>`_ and `here <https://ledgerwatch.github.io/turbo_geth_release.html#Disk-space>`_.
+
 
 Installing Erigon
 -------------------
